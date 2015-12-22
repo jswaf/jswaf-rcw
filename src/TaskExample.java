@@ -29,7 +29,7 @@ public class TaskExample {
      * プログラムが実行されたら、なんらかの形で「オムライス」と出力すること。
      */
     private static void doSpec1() {
-        Recipe omeletRice = new OmeletRiceRecipe();
-        System.out.println(omeletRice.getTitle());
+        Recipe omeletRiceRecipe = new OmeletRiceRecipe();
+        System.out.println(omeletRiceRecipe.getTitle());
     }
 }
